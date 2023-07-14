@@ -1,0 +1,156 @@
+.items{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54, 54, 54);
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    text-decoration: none !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.imagenes{
+    width: 200px;
+    height: 180px;
+    margin-right: 20px;
+    margin-left: 2px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.imagenesProductos{
+    width: 26%;
+    height: 27.5vh;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+h6{
+    text-align: start;
+    font-size: x-large;
+    font-weight: 1;
+}
+
+.precio{
+    width: 25vw;
+    margin-top: 5vh;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    background-color: rgb(54, 54, 54);
+}
+
+.categorias{
+    height: 75vh;
+    margin-right: 3vw;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.eliminar{
+    position: absolute;
+    margin-left: 74vw;
+    margin-top: 10vh;
+    width: 55px;
+    height: 55px;
+}
+
+.button-verMas{
+    width: 100px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.button-verMas:hover {
+    background-color: rgb(26, 26, 26);
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.box-item-stock{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    height: 15px;
+    padding-left: 8px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.detalle-precio-item{
+    height: 3px;
+    width: 55vw;
+    margin-top: -1vh;
+    margin-left: 8px;
+    background-color: #1f1f1f;
+    border-radius: 2px;
+}
+
+.detalle-precio-item-Productos{
+    height: 3px;
+    width: 17vw;
+    margin-top: -1vh;
+    margin-left: 8px;
+    background-color: #1f1f1f;
+    border-radius: 2px;
+}
+
+.precioTotal{
+    margin-top: 8vh;
+    margin-bottom: 15vh;
+}
+
+.vaciarCarro{
+    margin-top: 2vh;
+    height: 10vh;
+}
+
+.tituloCarritoVacio{
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+.volver{
+    font-size: larger;
+}
+
+.Secciones{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    width: 97%;
+    padding-left: 4vw;
+    margin-top: 4vh;
+    background-color: black;
+}
+
+.productos{
+    margin-top: -6vh;
+}
+
+.inputOrden{
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 35px;
+}
+
+.btnOrden{
+    width: 60%;
+    height: 50px;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
